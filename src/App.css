@@ -1,0 +1,67 @@
+.Container {
+  margin: 5%;
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+.wrp {
+  border-style: solid;
+  border-color: white;
+}
+/* figcaption {
+} */
+.numOfItem {
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: lightgray;
+  top: 6px;
+  left: 1px;
+  border-radius: 6px;
+}
+.tdprice {
+  font-weight: 600;
+  font-size: 30px;
+}
+h3 {
+  color: black;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin: 3%;
+}
+p {
+  color: gray;
+  font-size: 18px;
+}
+td {
+  padding: 22px;
+}
+table {
+  border-collapse: collapse;
+  border: 1px soli white;
+}
+Button {
+  background: red;
+  border-radius: 8px;
+  color: white;
+}
+img {
+  height: 300px;
+  width: 200px;
+}
+.price {
+  display: inline-block;
+  color: gray;
+  position: relative;
+  left: 800px;
+}
+.totalPrice {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
