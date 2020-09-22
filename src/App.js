@@ -101,34 +101,35 @@ class App extends Component {
           </td>
           <td className="tdd"></td>
           <td>
-            {" "}
-            <Button
-              variant="link"
-              style={{
-                fontWeight: "bold",
-                fontSize: "30px",
-                color: "black",
-              }}
-              onClick={() => {
-                this.takeOfCart(i, d);
-              }}
-            >
-              &minus;
-            </Button>
-            <div className="numOfItem">{d.counter}</div>
-            <Button
-              style={{
-                fontWeight: "bold",
-                fontSize: "32px",
-                color: "black",
-              }}
-              variant="link"
-              onClick={() => {
-                this.addToCart(i, d);
-              }}
-            >
-              +
-            </Button>
+            <div style={{ display: "inline-block", whiteSpace: "nowrap" }}>
+              <Button
+                variant="link"
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "30px",
+                  color: "black",
+                }}
+                onClick={() => {
+                  this.takeOfCart(i, d);
+                }}
+              >
+                &minus;
+              </Button>
+              <div className="numOfItem">{d.counter}</div>
+              <Button
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "32px",
+                  color: "black",
+                }}
+                variant="link"
+                onClick={() => {
+                  this.addToCart(i, d);
+                }}
+              >
+                +
+              </Button>
+            </div>
           </td>
 
           <td>
