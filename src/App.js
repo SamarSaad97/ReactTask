@@ -95,8 +95,9 @@ class App extends Component {
           <td class="tds">
             {" "}
             <figcaption>
-              <h4 className="title"> {d.name}</h4>
-              <p className="desc">{d.description}</p>
+              <h4 className="title dis"> {d.name}</h4>
+              <br></br>
+              <p className="desc dis">{d.description}</p>
             </figcaption>
           </td>
           <td className="tdd"></td>

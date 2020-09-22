@@ -50,6 +50,10 @@ Button {
   border-radius: 8px;
   color: white;
 }
+.dis {
+  display: inline-block;
+  white-space: nowrap;
+}
 img {
   height: 300px;
   width: 200px;
@@ -58,7 +62,7 @@ img {
   display: inline-block;
   color: gray;
   position: relative;
-  left: 702px;
+  left: 744px;
 }
 .totalPrice {
   color: black;
